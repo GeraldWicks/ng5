@@ -1,0 +1,35 @@
+p {
+  font-weight: bold;
+}
+
+.btn_submit {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #76e8f7;
+  background-color: #76e8f7;
+  color: white;
+}
+
+.container_top {
+  background-color: #21a0b1;
+  border: 1px solid #21a0b1;
+  border-bottom: 1px solid #76e8f7;
+}
+
+.life-container:hover {
+  background-color: #21a0b1;
+  cursor: pointer;
+}
+
+.txt {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=home.component.css.map */

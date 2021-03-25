@@ -1,0 +1,47 @@
+$light_blue : rgb(118, 232, 247); 
+$dark_blue : rgb(33, 160, 177);
+
+
+p{
+    font-weight: bold;
+}
+
+
+.btn_submit
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+.container
+{
+    display: flex;
+    border: 1px solid $light_blue;
+    background-color: $light_blue;
+    color: white;
+}
+
+.container_top
+{
+    background-color: $dark_blue;
+    border: 1px solid $dark_blue;
+    border-bottom: 1px solid $light_blue;
+}
+
+.life-container
+{
+    &:hover
+    {
+        background-color: $dark_blue;
+        cursor:pointer;
+    }
+}
+
+
+.txt
+{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

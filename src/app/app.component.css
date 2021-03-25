@@ -1,0 +1,15 @@
+a {
+  color: black;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.single_line {
+  margin: 0%;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=app.component.css.map */

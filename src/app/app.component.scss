@@ -1,0 +1,16 @@
+a
+{
+    color:black;
+    text-decoration-line: none;
+
+    &:hover
+    {
+        font-weight: bold;
+    }
+}
+
+.single_line
+{
+    margin: 0%;
+    margin-bottom: 1rem;
+}
